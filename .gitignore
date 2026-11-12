@@ -1,8 +1,8 @@
-# data fetched by fetch_coco_data.py (from the shared bucket; never committed)
+# data fetched by the notebook's "Get the data" cells (never committed)
 datasets/coco/images/*
 !datasets/coco/images/metadata/
 datasets/coco/annotations/
-.coco-download/
+.downloads/
 # produced by the notebook
 features.pt
 *.pth
