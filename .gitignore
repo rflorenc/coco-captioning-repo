@@ -1,0 +1,11 @@
+# data fetched by fetch_coco_data.py (from the shared bucket; never committed)
+datasets/coco/images/*
+!datasets/coco/images/metadata/
+datasets/coco/annotations/
+.coco-download/
+# produced by the notebook
+features.pt
+*.pth
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
